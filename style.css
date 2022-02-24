@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: grey;
+}
+
+.navbar-container {
+  padding: 10px;
+  background: rgb(26, 87, 138);
+}
+
+.navbar {
+  padding: 20px;
+  color: white;
+  display: inline;
+}
+
+.navbar-items {
+  display: flex;
+  align-content: space-evenly;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+ul {
+  right: 0px;
+  top: 20px;
+}
+
+.middle section {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+.pic {
+  width: 20%;
+  height: 20%;
+}
+
+a {
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.footer {
+  background: rgb(26, 87, 138);
+  padding: 20px;
+  color: aliceblue;
+}
+
+@media screen and (max-width: 500px) {
+  .small-100 {
+    width: 100%;
+  }
+}
